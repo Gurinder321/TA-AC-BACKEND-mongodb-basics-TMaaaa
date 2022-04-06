@@ -8,6 +8,9 @@ DB_NAME --collection COLLECTION_NAME --file cities.json(file location) --jsonArr
 (an array of json data)
 ```
 
+mongoimport --host localhost:27017 --username admin --password admin --db
+blogs --collection articles --file cities.json(desktop) --jsonArray
+
 host, username and password are optional fields.
 
 - --host : hostname // defaults to localhost:27017
